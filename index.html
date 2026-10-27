@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Một trải nghiệm tương tác về nghịch lý Epicurus và vấn đề cái ác.">
+  <title>Nghịch lý Epicurus</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="site-header">
+      <p class="eyebrow">MỘT THÍ NGHIỆM TRIẾT HỌC</p>
+      <h1>Nghịch lý Epicurus</h1>
+      <p class="subtitle">Lần theo những câu hỏi về cái ác, quyền năng và lòng tốt.</p>
+    </header>
+
+    <section class="dialogue-card" aria-live="polite" aria-atomic="true">
+      <div class="step-indicator" id="step-indicator">BẮT ĐẦU</div>
+      <h2 id="question">Cái ác tồn tại</h2>
+      <div id="choices" class="choices">
+        <button class="choice-button" data-choice="start">Có</button>
+      </div>
+      <div id="answer" class="answer" hidden></div>
+      <button id="back-button" class="back-button" type="button">← Quay lại</button>
+    </section>
+
+    <footer class="site-footer">
+      <p>Không phải một kết luận thay bạn — mà là lời mời suy nghĩ.</p>
+    </footer>
+  </main>
+</body>
+</html>
